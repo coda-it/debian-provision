@@ -1,0 +1,11 @@
+[Unit]
+Description=Cear service
+
+[Service]
+Environment="CEAR_KEY=CEAR_KEY_VALUE"
+WorkingDirectory=/root/gowork/src/github.com/coda-it/cear
+ExecStart=/root/gowork/src/github.com/coda-it/cear/main
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
