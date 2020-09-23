@@ -3,8 +3,8 @@ Description=Cear service
 
 [Service]
 Environment="CEAR_KEY=CEAR_KEY_VALUE"
-WorkingDirectory=/home/oskarszura/gowork/src/github.com/coda-it/cear
-ExecStart=/home/oskarszura/gowork/src/github.com/coda-it/cear/main
+WorkingDirectory=/root/gowork/src/github.com/coda-it/cear
+ExecStart=/root/gowork/src/github.com/coda-it/cear/main
 Restart=on-failure
 
 [Install]
