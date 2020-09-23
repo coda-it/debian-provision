@@ -5,7 +5,7 @@ mkdir -p ~/gowork/src/github.com/coda-it
 
 # Install cear
 git clone https://github.com/coda-it/cear ~/gowork/src/github.com/coda-it
-(cd ~/gowork/src/github.com/coda-it && make)
+(cd ~/gowork/src/github.com/coda-it/cear && make)
 
 cp ./cear.conf ~/gowork/src/github.com/coda-it/cear
 cp ./deploy.sh ~/gowork/src/github.com/coda-it/cear
